@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  scroll-behavior: inherit;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+video,
+iframe,
+picture,
+figure {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
